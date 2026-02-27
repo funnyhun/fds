@@ -16,7 +16,7 @@
 # --- 본문 (선택) ---
 # 들여쓰기 규칙
 # - Title (주요 변경사항)
-#  > SubTitle & Content (Title에 대응되는 세부 내용)
+#  - SubTitle & Content (Title에 대응되는 세부 내용) : 들여쓰기 1회 추가
 
 # --- 이슈 참조 (필요 시) ---
 # Closes #0 (또는 Fixes, Relates to)
