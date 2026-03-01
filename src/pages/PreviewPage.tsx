@@ -64,6 +64,36 @@ const Empty = styled.div`
   box-shadow: var(--shadow-soft);
 `;
 
+const CodeSection = styled.section`
+  display: grid;
+  gap: 16px;
+`;
+
+const CodeTitle = styled.h3`
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  color: var(--ink-90);
+`;
+
+const CodeBlock = styled.pre`
+  margin: 0;
+  padding: 24px;
+  background: #1e1e1e;
+  border-radius: 16px;
+  overflow-x: auto;
+  box-shadow: var(--shadow-soft);
+  font-family: "Monaco", "Menlo", "Ubuntu Mono", monospace;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: #d4d4d4;
+
+  code {
+    display: block;
+    white-space: pre;
+  }
+`;
+
 export default function PreviewPage() {
   const { id } = useParams();
   const entry = entries.find((item) => item.id === id);
@@ -93,6 +123,12 @@ export default function PreviewPage() {
         </Tags>
       </Header>
       <PreviewStage>{PreviewComponent ? <PreviewComponent {...preview.props} /> : null}</PreviewStage>
+      <CodeSection>
+        <CodeTitle>Source Code</CodeTitle>
+        <CodeBlock>
+          <code>{preview?.sourceCode || "// No source code available"}</code>
+        </CodeBlock>
+      </CodeSection>
     </Page>
   );
 }

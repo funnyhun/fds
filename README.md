@@ -63,7 +63,16 @@ export const previewRegistry = {
 
 ## 5) 빠른 확인 방법
 
-개발 서버 실행 후 아래 경로로 확인합니다.
+GitHub Pages로 배포된 환경에서 바로 확인할 수 있습니다.
 
-- 갤러리: `/`
-- 프리뷰: `/preview/<id>` (예: `/preview/example-card`)
+🔗 **배포 사이트**: https://funnyhun.github.io/fds/
+
+- 갤러리: https://funnyhun.github.io/fds/
+- 프리뷰: https://funnyhun.github.io/fds/preview/<id> (예: `/preview/accent-button`)
+
+로컬 개발 환경:
+
+```bash
+npm run dev  # 개발 서버 실행
+npm run deploy  # GitHub Pages에 배포
+```
