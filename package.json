@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
+    "preview": "vite preview --base=/fds/",
     "deploy": "npm run build && gh-pages -d dist && rm -rf dist"
   },
   "dependencies": {
