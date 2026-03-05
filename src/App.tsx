@@ -37,7 +37,7 @@ const Main = styled.main`
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.PROD ? "/fds" : "/"}>
       <GlobalStyle />
       <AppFrame>
         <TopBar>

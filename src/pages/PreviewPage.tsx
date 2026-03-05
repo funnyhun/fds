@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Link, useParams } from "react-router-dom";
+
 import catalogData from "../catalog/catalog.json";
 import type { CatalogEntry } from "../catalog/types";
 import { previewRegistry } from "../catalog/registry";
