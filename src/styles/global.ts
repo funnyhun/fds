@@ -18,6 +18,7 @@ export const GlobalStyle = createGlobalStyle`
     --mint-80: #9be3c6;
     --shadow-strong: 0 24px 40px rgba(16, 17, 23, 0.18);
     --shadow-soft: 0 12px 28px rgba(16, 17, 23, 0.12);
+    --preview-min-height: 20rem;
   }
 
   /* Responsive font-size scaling */

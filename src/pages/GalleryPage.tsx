@@ -83,7 +83,7 @@ const Card = styled(Link)`
   padding: 1.25rem;
   box-shadow: var(--shadow-strong);
   display: grid;
-  grid-template-rows: auto minmax(var(--preview-min-height), 1fr) auto;
+  grid-template-rows: auto 1fr auto;
   gap: 0.875rem;
   height: 100%;
   transition:
@@ -146,10 +146,12 @@ const PreviewFrame = styled.div`
   border-radius: 1.125rem;
   padding: 1.125rem;
   min-height: var(--preview-min-height);
+  max-height: var(--preview-min-height);
   height: 100%;
   display: grid;
   place-items: center;
   border: 0.0625rem solid rgba(16, 17, 23, 0.08);
+  overflow: hidden;
 `;
 
 const CATEGORY_LABELS: Record<CatalogCategory, string> = {
