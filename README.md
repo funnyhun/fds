@@ -24,6 +24,8 @@ export function ExampleCard() {
 
 카탈로그 목록은 `src/catalog/catalog.json`에서 관리됩니다. 여기 추가된 항목이 갤러리 카드와 프리뷰 라우팅의 기준이 됩니다.
 
+카테고리 기준은 `src/catalog/CATEGORY_SPEC.md` 문서를 참고하세요.
+
 ```json
 {
   "id": "example-card",

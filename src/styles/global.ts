@@ -20,6 +20,25 @@ export const GlobalStyle = createGlobalStyle`
     --shadow-soft: 0 12px 28px rgba(16, 17, 23, 0.12);
   }
 
+  /* Responsive font-size scaling */
+  @media (max-width: 640px) {
+    :root {
+      font-size: 14px;
+    }
+  }
+
+  @media (min-width: 641px) and (max-width: 1024px) {
+    :root {
+      font-size: 16px;
+    }
+  }
+
+  @media (min-width: 1025px) {
+    :root {
+      font-size: 18px;
+    }
+  }
+
   * {
     box-sizing: border-box;
   }

@@ -4,6 +4,7 @@
     "name": "Accent Button",
     "description": "Rounded CTA with a warm gradient edge.",
     "tags": ["button", "cta", "primary"],
+    "category": "action",
     "componentId": "AccentButton"
   },
   {
@@ -11,6 +12,7 @@
     "name": "Promo Card",
     "description": "Compact promo layout with a soft media block.",
     "tags": ["card", "promo", "layout"],
+    "category": "layout",
     "componentId": "PromoCard"
   },
   {
@@ -18,6 +20,7 @@
     "name": "Badge Stack",
     "description": "Floating chips for quick status grouping.",
     "tags": ["badge", "chips", "status"],
+    "category": "status",
     "componentId": "BadgeStack"
   }
 ]
