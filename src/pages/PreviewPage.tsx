@@ -9,7 +9,7 @@ const entries = catalogData as CatalogEntry[];
 
 const Page = styled.section`
   display: grid;
-  gap: 28px;
+  gap: 1.75rem;
 `;
 
 const BackLink = styled(Link)`
@@ -19,7 +19,7 @@ const BackLink = styled(Link)`
 
 const Header = styled.header`
   display: grid;
-  gap: 10px;
+  gap: 0.625rem;
 `;
 
 const Title = styled.h2`
@@ -31,43 +31,43 @@ const Title = styled.h2`
 const Description = styled.p`
   margin: 0;
   color: var(--ink-60);
-  max-width: 640px;
+  max-width: 40rem;
 `;
 
 const PreviewStage = styled.div`
-  min-height: 320px;
-  border-radius: 32px;
+  min-height: 20rem;
+  border-radius: 2rem;
   background: #ffffff;
   box-shadow: var(--shadow-strong);
-  padding: 36px;
+  padding: 2.25rem;
   display: grid;
   place-items: center;
 `;
 
 const Tags = styled.div`
   display: flex;
-  gap: 10px;
+  gap: 0.625rem;
   flex-wrap: wrap;
 `;
 
 const Tag = styled.span`
   background: var(--paper-90);
-  padding: 6px 12px;
-  border-radius: 999px;
+  padding: 0.375rem 0.75rem;
+  border-radius: 999rem;
   font-size: 0.75rem;
   font-weight: 600;
 `;
 
 const Empty = styled.div`
-  padding: 32px;
+  padding: 2rem;
   background: #ffffff;
-  border-radius: 24px;
+  border-radius: 1.5rem;
   box-shadow: var(--shadow-soft);
 `;
 
 const CodeSection = styled.section`
   display: grid;
-  gap: 16px;
+  gap: 1rem;
 `;
 
 const CodeTitle = styled.h3`
@@ -79,9 +79,9 @@ const CodeTitle = styled.h3`
 
 const CodeBlock = styled.pre`
   margin: 0;
-  padding: 24px;
+  padding: 1.5rem;
   background: #1e1e1e;
-  border-radius: 16px;
+  border-radius: 1rem;
   overflow-x: auto;
   box-shadow: var(--shadow-soft);
   font-family: "Monaco", "Menlo", "Ubuntu Mono", monospace;

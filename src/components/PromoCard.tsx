@@ -8,13 +8,13 @@ type PromoCardProps = {
 
 const Card = styled.article`
   background: #ffffff;
-  border-radius: 24px;
-  padding: 28px;
-  min-width: 260px;
-  max-width: 320px;
+  border-radius: 1.5rem;
+  padding: 1.75rem;
+  min-width: 16.25rem;
+  max-width: 20rem;
   box-shadow: var(--shadow-soft);
   display: grid;
-  gap: 16px;
+  gap: 1rem;
 `;
 
 const Badge = styled.span`
@@ -24,8 +24,8 @@ const Badge = styled.span`
   font-size: 0.75rem;
   letter-spacing: 0.08em;
   font-weight: 600;
-  padding: 6px 12px;
-  border-radius: 999px;
+  padding: 0.375rem 0.75rem;
+  border-radius: 999rem;
 `;
 
 const Title = styled.h3`
@@ -44,15 +44,15 @@ const Cta = styled.button`
   border: none;
   background: #101117;
   color: #ffffff;
-  padding: 10px 18px;
-  border-radius: 12px;
+  padding: 0.625rem 1.125rem;
+  border-radius: 0.75rem;
   font-weight: 600;
   cursor: pointer;
 `;
 
 const ImageBlock = styled.div`
-  height: 140px;
-  border-radius: 18px;
+  height: 8.75rem;
+  border-radius: 1.125rem;
   background: linear-gradient(135deg, #ffe8d2, #c6f0f7);
 `;
 

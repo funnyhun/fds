@@ -5,7 +5,7 @@ const Page = styled.section`
   display: grid;
   place-items: center;
   min-height: 40vh;
-  gap: 16px;
+  gap: 1rem;
 `;
 
 const Title = styled.h2`
