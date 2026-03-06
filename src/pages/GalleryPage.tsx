@@ -145,8 +145,8 @@ const PreviewFrame = styled.div`
   background: #fdfbf7;
   border-radius: 1.125rem;
   padding: 1.125rem;
-  min-height: var(--preview-min-height);
-  max-height: var(--preview-min-height);
+  min-height: var(--preview-height);
+  max-height: var(--preview-height);
   height: 100%;
   display: grid;
   place-items: center;
